@@ -17,3 +17,5 @@ print(n[-3:]) # prints the last three elements
 print(n[:-3]) # prints all elements except the last three
 print(n[-5:-1]) # prints elements from index -5 to -2
 print(n[2:-2]) # prints elements from index 2 to -3
+print("a"**3) # prints 'aaa'
+print("abc"[::-1]) # prints 'cba'

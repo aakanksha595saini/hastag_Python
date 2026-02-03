@@ -20,9 +20,10 @@ def multiply(num1,num2):
 
 #The global keyword acts like a 'key' that allows a function to reach out and modify a variable defined in the main program scope.
 
-def sume(*n): #*n is used to take multiple arguments
+def sume(*n): #*n is used to take multiple arguments and the type of n is tuple so it will not change and can store duplicates
     total = 0
     for num in n:
         total += num
     return total
 print(sume(2,2))
+
