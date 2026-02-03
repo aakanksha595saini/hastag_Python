@@ -3,6 +3,7 @@ dis = {1: "dinesh", 2: "karthik"}
 for i in (dis.values(), dis.keys()):
     # for extracting each values in iterable variable i in list form
     print("Dictionary Keys:", list(i))
+print("Dictionary Values:", list(dis.values()))
  
 dis = {1: "dinesh", 2: "karthik"}
 #printing dictionary items
