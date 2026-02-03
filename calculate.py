@@ -22,3 +22,5 @@ operator = input("Enter an operator (+, -, *, /): ")
 result = calculate(num1, num2, operator)
 print(f"The result of {num1} {operator} {num2} is: {result}")
 
+
+

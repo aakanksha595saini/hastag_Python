@@ -27,3 +27,4 @@ squared_or_halved = [n**2 if n % 2 == 0 else n / 2 for n in numbers]
 print(f"Squared or Halved: {squared_or_halved}")
 print(sum(squared_or_halved))
 print(sum([1,2,3,4,5]))
+
