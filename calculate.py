@@ -16,11 +16,25 @@ def calculate(num1, num2, operator):
     else:
         return "Error: Invalid operator"    
 # Example usage
-num1 = 10   
-num2 = 5
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 operator = input("Enter an operator (+, -, *, /): ")
 result = calculate(num1, num2, operator)
 print(f"The result of {num1} {operator} {num2} is: {result}")
 
-
-
+operation = int(input("Enter 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division: "))
+if operation == 1:
+    operator = '+'
+elif operation == 2:
+    operator = '-'
+elif operation == 3:        
+    operator = '*'
+elif operation == 4:
+    operator = '/'
+else:
+    print("Invalid operation selected.")
+    operator = None
+if operator:
+    result = calculate(num1, num2, operator)
+    print(f"The result of {num1} {operator} {num2} is: {result}")
+    
