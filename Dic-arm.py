@@ -5,8 +5,10 @@ def dic_arm():
     even_armstron_numbers = []
     odd_armstron_numbers = []
     palindrom_nums = []
+    start_num =int(input("enter start range from :"))
+    end_num = int(input("Enter the range end: "))
     
-    for num in range(1,155):
+    for num in range(start_num,end_num):
         count =0
         temp =num
         armstrong_numbers = 0
