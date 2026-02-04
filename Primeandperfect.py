@@ -77,7 +77,7 @@ for i in range(1,1000):
     temp  = i
     armstrong_num =0   
     while temp>0:
-        temp =temp//10
+        temp =temp//10 # remove last digit
         c += 1
     temp = i
     while temp>0:
