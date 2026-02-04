@@ -8,3 +8,6 @@ S2= {uid for uid in user_ids if uid % 2 == 0}
 
 #List is an ordered collection that allows duplicate elements and mutable collection
 # while a Set is an unordered collection that automatically removes duplicates.
+my_list = [10, 2, 5, 4, 2]
+my_list.sort(reverse=True)
+print(my_list)
