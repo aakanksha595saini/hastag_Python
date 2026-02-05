@@ -9,17 +9,22 @@ def prime(num):
                 return "Not Prime"
         return "Prime"
 print(f"The number {num} is {prime(num)}")
+
 def perfect(num):
     sum=0
+    divisors_ofnumber =[]
     for i in range(1,num):
         if num%i==0:
-            sum+=i
+            sum += i
+            divisors_ofnumber.append(i)
+            # print(divisors_ofnumber)
     if sum==num:
-        return "Perfect Number"
+        return "Perfect Number",divisors_ofnumber #divisors of num
     else:
-        return "Not a Perfect Number"
-    
+        return "Not a Perfect Number"    
 print(f"The number {num} is {perfect(num)}")
+
+
 #Factorial is number multiplied by all positive integers less than itself
 def factorial(n):
     if n==0 or n==1:
