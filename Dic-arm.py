@@ -14,7 +14,7 @@ def dic_arm():
         armstrong_numbers = 0
         palin =0
         while temp>0:
-            temp = temp//10
+            temp = temp//10 #9//2=4
             count +=1   
         temp = num
         while temp>0:

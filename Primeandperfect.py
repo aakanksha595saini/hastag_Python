@@ -33,6 +33,7 @@ def factorial(n):
         return n * factorial(n-1)
 fact = factorial(num)
 print(f"The factorial of {num} is {fact}")
+
 # fabonacci series is a series in which each number is the sum of the two preceding ones starting from 0 and 1
 def fibonacci(n):
     fib_sequence = [0, 1]
